@@ -1,4 +1,8 @@
 public class Single_s {
+// Given an array and a number `x`, check if `x` is present in the array (linear search).
+
+// *Input:* `[5, 8, 12, 7 ,1 ,1]` and `x = 12` → *Output:* `Found at index 1`.
+
 
     public static void main(String[] args) {
 

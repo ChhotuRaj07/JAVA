@@ -1,0 +1,21 @@
+public class Count_Odd_Even {
+
+    public static void main(String[] args) {
+
+        int[] arr = {2, 3, 4, 5, 6};
+
+        int countodd = 0;
+        int counteven = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 0) {
+                counteven++;
+            } else {
+                countodd++;
+            }
+        }
+
+        // Print odd first, then even
+        System.out.println(countodd + " " + counteven);
+    }
+}
