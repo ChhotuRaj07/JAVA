@@ -15,7 +15,6 @@ public class Count_Odd_Even {
             }
         }
 
-        // Print odd first, then even
-        System.out.println(countodd + " " + counteven);
+        System.out.println(counteven + " " + countodd);
     }
 }
