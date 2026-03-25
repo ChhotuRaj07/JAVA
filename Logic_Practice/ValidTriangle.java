@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class ValidTriangle {
     
     public static void main(String[] args) {
+
+        // Take three sides and check if they form a valid triangle
+        
         Scanner sc = new Scanner(System.in);
       
         System.out.println("Enter a Side a");
