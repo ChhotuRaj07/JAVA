@@ -7,8 +7,8 @@ public class Value_FInd_Inside_array_Yes {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Value check Inside The array");
 		int Value = sc.nextInt();
-        
-		sc.close();   // ✅ closes scanner
+
+		sc.close();   
 
 		boolean found = false;
 		
